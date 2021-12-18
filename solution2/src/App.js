@@ -1,9 +1,11 @@
-import './App.css';
-import Councillors from './pages/Councillors/Councillors';
+import "./App.css";
+import Router from "./routing/Router";
 
 function App() {
   return (
-    <Councillors />
+    <>
+      <Router />
+    </>
   );
 }
 

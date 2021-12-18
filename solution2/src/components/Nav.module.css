@@ -1,0 +1,19 @@
+.nav {
+  background-color: darkblue;
+  border-bottom: "solid 1px";
+  padding-bottom: "1rem";
+  display: flex;
+  justify-content: center;
+}
+
+.nav-btn {
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-btn:hover {
+  color: yellow;
+}
