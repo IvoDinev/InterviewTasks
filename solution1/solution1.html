@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 1</title>
+    <script src="./solution1.js" defer></script>
+</head>
+<body>
+    <label for="sortBy">Sort by</label>
+    <select name="sortBy" id="sortBy">
+      <option value="ID">ID</option>
+      <option value="Name">Name</option>
+    </select>
+    <label>Filters</label>
+    <input id="nameInput" placeholder="Name"/>
+    <input id="idInput" placeholder="ID"/>
+    <button id="searchBtn">Search</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Active</th>
+                <th>Code</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Official Denomination</th>
+                <th>Salutation Letter</th>
+                <th>Salutation Title</th>
+                <th>Updated</th>
+            </tr>
+        </thead>
+        <tbody id="councilTableBody">            
+        </tbody>
+    </table>
+</body>
+</html>
